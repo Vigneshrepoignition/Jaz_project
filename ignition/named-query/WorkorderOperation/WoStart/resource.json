@@ -1,0 +1,70 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "JeMES_QA",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "1a3a0883e7e3aa2d95fb03b804281a772a447e9ad161dbb4a34f79c258385b17",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "external",
+      "timestamp": "2024-05-21T05:00:21Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "WorkOrderId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "UserId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "IsClubbed",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "WorkOrderStatusId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "ScanBadge",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "HoldReasonCodeId",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "Comment",
+        "sqlType": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "JEMESNEW",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "88dddbbfe8d185743c208a912d9bcf388dde9437c97a587e05312e04e5d89819",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "external",
+      "timestamp": "2024-05-21T05:00:21Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "supermarketId",
+        "sqlType": 3
+      },
+      {
+        "type": "Parameter",
+        "identifier": "partNo",
+        "sqlType": 3
+      }
+    ]
+  }
+}

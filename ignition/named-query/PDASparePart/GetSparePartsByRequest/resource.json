@@ -1,0 +1,40 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "Query",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "JEMESNEW",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "48ccae4e11a15ed3ee842c786e59dfc1ba11d04c85846e3905f26162bbb61560",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "external",
+      "timestamp": "2024-05-21T05:00:21Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "requestId",
+        "sqlType": 3
+      }
+    ]
+  }
+}
